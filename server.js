@@ -7,6 +7,11 @@ var cheerio = require("cheerio");
 const http = require("http");
 const HOST = '0.0.0.0';
 const PORT = process.env.PORT || 4000;
+const cors = require('cors');
+
+app.use(cors({
+    origin: '*',
+}));
 
 const config = '/config.js'
 console.log(config[0]);

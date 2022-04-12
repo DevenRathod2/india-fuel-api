@@ -1,1 +1,21 @@
-[]
+[
+    {
+        "district": "AMRAVATI",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "121.10",
+                "productCurrency": "INR",
+                "priceChange": "0.22",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "103.80",
+                "productCurrency": "INR",
+                "priceChange": "0.21",
+                "priceChangeSign": "-"
+            }
+        ]
+    }
+]
