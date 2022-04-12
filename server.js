@@ -5,7 +5,11 @@ var fs = require("fs");
 var request = require("request");
 var cheerio = require("cheerio");
 const http = require("http");
-const PORT = 4000;
+const HOST = '0.0.0.0';
+const PORT = process.env.PORT || 4000;
+
+const config = '/config.js'
+console.log(config[0]);
 
 function getDistrict(article) {
     var $ = cheerio.load(article);
@@ -287,6 +291,7 @@ app.get("/price/:state/:district", function (req, res) {
             .replace("/petrol-diesel-prices/", "");
           stateName = $(link).contents().last().text();
           returnVal.push(state);
+
         });
       }
   
@@ -295,6 +300,7 @@ app.get("/price/:state/:district", function (req, res) {
         JSON.stringify(returnVal, null, 4),
         function (err) {
           console.log("File successfully written!");
+          console.log(JSON.stringify(returnVal));
         }
       );
   
@@ -302,6 +308,6 @@ app.get("/price/:state/:district", function (req, res) {
     });
   });
 
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
+app.listen(PORT, HOST, function() {
+    console.log(`Server is running on port ${PORT} & host ${HOST}`);
 });

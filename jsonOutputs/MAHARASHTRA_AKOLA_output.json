@@ -1,0 +1,21 @@
+[
+    {
+        "district": "AKOLA",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "120.19",
+                "productCurrency": "INR",
+                "priceChange": "0.1",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "102.92",
+                "productCurrency": "INR",
+                "priceChange": "0.1",
+                "priceChangeSign": "-"
+            }
+        ]
+    }
+]

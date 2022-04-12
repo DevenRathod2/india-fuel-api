@@ -1,0 +1,21 @@
+[
+    {
+        "district": "THANE",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "118.61",
+                "productCurrency": "INR",
+                "priceChange": "0.42",
+                "priceChangeSign": "+"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "101.82",
+                "productCurrency": "INR",
+                "priceChange": "0.46",
+                "priceChangeSign": "+"
+            }
+        ]
+    }
+]

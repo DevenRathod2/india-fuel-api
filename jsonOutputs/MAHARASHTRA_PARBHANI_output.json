@@ -1,0 +1,21 @@
+[
+    {
+        "district": "PARBHANI",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "121.66",
+                "productCurrency": "INR",
+                "priceChange": "0.39",
+                "priceChangeSign": "+"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "104.26",
+                "productCurrency": "INR",
+                "priceChange": "0.4",
+                "priceChangeSign": "+"
+            }
+        ]
+    }
+]

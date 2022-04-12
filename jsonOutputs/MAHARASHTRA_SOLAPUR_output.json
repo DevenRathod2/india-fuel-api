@@ -1,0 +1,21 @@
+[
+    {
+        "district": "SOLAPUR",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "120.41",
+                "productCurrency": "INR",
+                "priceChange": "0.08",
+                "priceChangeSign": "-"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "103.12",
+                "productCurrency": "INR",
+                "priceChange": "0.08",
+                "priceChangeSign": "-"
+            }
+        ]
+    }
+]

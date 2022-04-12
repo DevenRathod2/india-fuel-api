@@ -1,0 +1,21 @@
+[
+    {
+        "district": "NANDED",
+        "products": [
+            {
+                "productName": "Petrol",
+                "productPrice": "121.00",
+                "productCurrency": "INR",
+                "priceChange": "0.4",
+                "priceChangeSign": "+"
+            },
+            {
+                "productName": "Diesel",
+                "productPrice": "103.64",
+                "productCurrency": "INR",
+                "priceChange": "0.4",
+                "priceChangeSign": "+"
+            }
+        ]
+    }
+]

@@ -1,4 +1,4 @@
-/* * {
+ * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -8,7 +8,7 @@
 body {
     background-color: #21175C;
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Sofia Pro', sans-serif;
 }
 
 .wrapper {
@@ -54,4 +54,4 @@ i {
     font-size: 30px;
     margin-bottom: 5px;
 }
- */
+
